@@ -1,0 +1,111 @@
+body{
+    background: linear-gradient(-45deg,#2de2e6,#035ee8,#f6019d,#d40078,#aa04e6	);
+    padding-bottom: 500px;
+    background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+    padding: 0;
+    margin:0;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    user-select: none;
+    
+
+    
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+li{
+    font-size: 24px;
+    color: white;
+    height: 25px;
+    border-radius: 25px;
+}
+li:hover{
+    background: linear-gradient(to left,#5f4eff,#4e85fc ) right;
+
+}
+
+span{
+    width: 30px;
+    height:30px;
+    background-color: rgb(195, 3, 3);
+    font-size: 18px;
+   
+}
+
+ul li span{
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+
+
+.cointaner{
+    text-align: center;
+    justify-content: center;
+}
+
+.cointaner2{
+  text-align: center;
+   justify-content: center;
+
+}
+
+.documento{
+    width: 600px;
+    height: 800px;
+    background: linear-gradient(to left,#2d7ae6,#0316e8 ) right;
+    border-radius: 10px;
+    margin: auto;
+    margin-top:20px ;
+
+
+}
+
+#sendBtn{
+    width: 100px;
+    height:30px;
+    cursor: pointer;
+    background: linear-gradient(to left,#2de639eb,#22e803 ) right;
+    animation: gradient 1s ease infinite;
+    border: solid rgb(55, 69, 222) 1px;
+    color:white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#sendBtn:hover{
+   opacity: 0.9;
+
+}
+
+#txt{
+    border-radius: 5px;
+    outline: none;
+   background-color: #FFF;
+    height: 20px;
+}
+
+#txt:hover{
+    opacity: 0.9;
+
+
+}
